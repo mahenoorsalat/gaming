@@ -1,7 +1,16 @@
+/* Import the font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=TT+Lakes+W05+Regular&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Set font for the whole body */
+body {
+  font-family: 'TT Lakes W05 Regular', Arial, Helvetica, sans-serif;
+}
+
+/* Set light and dark mode colors */
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -14,8 +23,49 @@
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.about {
+  background: url('/game-source/aboutBg.png') no-repeat center center/cover;
+  background-attachment: fixed;
+  height: 50vh;
+}
+.loginBg{
+  background: url('/game-source/aboutBg.png') no-repeat center center/cover;
+  background-attachment: fixed;
+  height: 50vh;
+}
+.swiper-container {
+  padding: 50px 0;
+}
+
+.swiper-slide {
+  opacity: 0.4;
+  transition: opacity 0.3s ease;
+}
+
+.swiper-slide-active {
+  opacity: 1;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: white !important;
+}
+
+.swiper-pagination-bullet {
+  background: white !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #8B5CF6 !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .swiper-container {
+    padding: 30px 0;
+  }
+  
+  .swiper-slide {
+    scale: 0.9;
+  }
 }
