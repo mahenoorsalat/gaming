@@ -10,7 +10,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import Image from 'next/image';
 import { Facebook, Twitter, Instagram, Youtube, Twitch } from 'lucide-react';
-import { Menu, X, Search, Globe, User } from 'lucide-react';
+import { Menu, X, Search, Globe } from 'lucide-react';
 
 
 export default function Home() {
@@ -295,7 +295,6 @@ export default function Home() {
             <button className="text-white hover:text-gray-300">
               <Globe size={20} />
             </button>
-         
             <div className="text-white">$0.00</div>
           </div>
 
