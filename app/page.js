@@ -269,20 +269,20 @@ export default function Home() {
             <Link href="/" className="text-white font-header hover:text-gray-300">
               Home
             </Link>
-            <Link href="/catalog" className="text-white hover:text-gray-300">
+            <Link href="/" className="text-white hover:text-gray-300">
               Catalog
             </Link>
             <div className="bg-green-400 px-2 py-0.5 rounded text-sm">HOT</div>
-            <Link href="/sale" className="text-white hover:text-gray-300">
+            <Link href="/" className="text-white hover:text-gray-300">
               Sale
             </Link>
-            <Link href="/blog" className="text-white hover:text-gray-300">
+            <Link href="/" className="text-white hover:text-gray-300">
               Blog
             </Link>
-            <Link href="/brand-story" className="text-white hover:text-gray-300">
+            <Link href="/" className="text-white hover:text-gray-300">
               Brand Story
             </Link>
-            <Link href="/support" className="text-white hover:text-gray-300">
+            <Link href="/" className="text-white hover:text-gray-300">
               Support
             </Link>
           </div>
