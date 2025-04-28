@@ -46,7 +46,7 @@ function page() {
         </div>
 
         {/* Sign Up Button */}
-        <button className="w-full bg-purple-600 text-white p-3 rounded hover:bg-purple-700 transition">
+        <button  className="w-full bg-purple-600 text-white p-3 rounded hover:bg-purple-700 transition">
           Sign up
         </button>
 
