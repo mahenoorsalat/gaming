@@ -295,9 +295,7 @@ export default function Home() {
             <button className="text-white hover:text-gray-300">
               <Globe size={20} />
             </button>
-            <Link href="/login" className="text-white hover:text-gray-300">
-              <User size={20} />
-            </Link>
+         
             <div className="text-white">$0.00</div>
           </div>
 
